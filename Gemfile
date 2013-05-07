@@ -7,12 +7,17 @@ gem 'rails', '3.2.13'
 
 gem 'sqlite3'
 
+gem 'pry'
+gem 'pry-debugger'
+
 group :test do
   gem 'cucumber-rails'
   gem 'database_cleaner'
 end
 
 gem 'devise'
+
+gem 'poltergeist'
 
 # Gems used only for assets and not required
 # in production environments by default.

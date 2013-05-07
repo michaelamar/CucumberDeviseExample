@@ -1,1 +1,13 @@
 <H1>Hello this is the homepage</H1>
+
+<%= form_for Comment.new, :remote => true do |f| %>
+
+  <%= f.label :body %>
+  <%= f.text_area :body %>
+
+  <%= f.submit %>
+
+<% end %>
+
+<div class="comments">
+</div>

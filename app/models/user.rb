@@ -12,4 +12,7 @@ class User < ActiveRecord::Base
   def display_name
     first_name + " " + last_name
   end
+
+  has_many :comments
+
 end

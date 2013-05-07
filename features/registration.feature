@@ -9,7 +9,6 @@ Feature: User sign up and registration
     When I sign up as a user with email "dan@dangarland.co.uk"
     Then I should have an account
 
-@wip
   Scenario: A user logs in with valid information
     Given I am on the login page
     And I have already registered as "dan@dangarland.co.uk"

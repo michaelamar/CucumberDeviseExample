@@ -1,0 +1,1 @@
+Capybara.save_screenshot('http://dangarland.co.uk', :full => true)
